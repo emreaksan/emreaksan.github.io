@@ -191,7 +191,6 @@ plugins:
   - jekyll-link-attributes
   - jekyll-twitter-plugin
   - jemoji
-  - jekyll-webp
 
 # Sitemap settings
 defaults:
