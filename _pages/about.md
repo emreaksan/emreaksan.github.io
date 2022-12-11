@@ -1,25 +1,26 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <center><p>Zurich, Switzerland</p></center>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Research Scientist in the AR Perception group at Google.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests lie at the intersection of machine learning, computer vision, and human-computer interaction, with a primary focus on the perception and synthesis of human activities, aiming to digitize humans in various aspects. Technically, I am interested in deriving new machine learning algorithms, particularly generative temporal models to capture human dynamics and generate human-like interactions. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Prior to joining Google, I was a PhD student in the [Advanced Interactive Technologies](https://ait.ethz.ch/) lab at ETH Zurich, advised by [Prof. Dr. Otmar Hilliges](https://ait.ethz.ch/people/hilliges/). The focus of my thesis was deep generative temporal modeling with applications in the tasks of 3D motion modeling and prediction, building 3D face avatars, and modeling and synthesis of free-form human actions such as digital representations of drawings and handwritten text. 
+<!-- I hold a MSc and a BSc in Computer Engineering from METU, Turkey. -->
+
+E-mail	:	aksan (at) google (dot) com. Feel free to reach out to me for questions or potential collaborations.

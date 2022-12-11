@@ -253,7 +253,7 @@ blockquote {
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2.5rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -274,7 +274,8 @@ blockquote {
 
 // Footer
 footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
+  // background-color: var(--global-footer-bg-color);
+  background-color: #afafaf;
   font-size: 0.75rem;
   .container {
     color: var(--global-footer-text-color);
@@ -497,6 +498,7 @@ footer.sticky-bottom {
         width: 100%;
         min-width: 80px;
         max-width: 200px;
+        margin-top: 3px;
       }
       .abbr {
         height: 2rem;
@@ -520,8 +522,10 @@ footer.sticky-bottom {
       }
       .title {
         font-weight: bolder;
+        font-size: 1.125rem;
       }
       .author {
+        font-size: .875rem;
         a {
           border-bottom: 1px dashed var(--global-theme-color);
           &:hover {
@@ -530,6 +534,7 @@ footer.sticky-bottom {
           }
         }
         > em {
+          color: #2698ba;
           border-bottom: 1px solid;
           font-style: normal;
         }
@@ -542,6 +547,9 @@ footer.sticky-bottom {
               border-bottom: 1px dashed var(--global-text-color);
           }
         }
+      }
+      .periodical {
+        font-size: .875rem;
       }
       .links {
         a.btn {
